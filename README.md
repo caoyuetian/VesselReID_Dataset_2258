@@ -1,9 +1,9 @@
-#1、VesselReID-2258 Dataset Introduction
+# 1、VesselReID-2258 Dataset Introduction
 We collected 8 types of vessels from the website (Cargo Ship, Fishing Boat, High Speed Ship, Passenger ship, Nav-igation Aid Ship, PleasureCraft Ship, Tankers Ship, Tug &Special Craft Ship), there are more than 300 vessels in each type of vessel and we filtered the vessels with less than 8 images. After initial selection and filtration, the original dataset contains 201,943 images of 3,236 vessels. These images were taken by cameramen around the world at different locations and times, either on board or on shore. Since the images were captured at different times and different angles, vessels of the same identity present a diverse range of postures.After the initial selection, some issues persisted in the remaining images, such as excessively cluttered backgrounds,the presence of multiple vessels in a single image, incomplete vessel captures, and other similar concerns. To address these issues, we performed additional data processing steps. Using the pre-trained YOLOv5 model, we successfully extracted the bounding box of the targeted vessel in each image, enabling precise localization of the vessel object. This step played a crucial role in providing essential foundational data for subse-quent identification tasks. However, in the detection results,there are certain images with multiple vessels and certain images with incomplete vessels, so we filter the detected
 images. Following data filtering, we obtained 122,477 images of 2258 vessels, with an approximate average of 50 images per vessel, and the dataset includes 172 Cargo Ships, 443 Fishing Boats, 375 High-Speed Ships, 36 Navigation Aid Ships, 195 Passenger Ships, 333 Pleasure Craft Ship, 223 Tankers Ship,and 481 Tug & Special Craft Ship.
 
-#2、subsection of the VesselReID-2258
+# 2、Subsection Of the VesselReID-2258
 ![图片6](https://github.com/caoyuetian/VesselReID_Dataset_2258/assets/45139791/92318666-f962-4300-b313-d39937a0b7ab)
 
-#3、Dataset Availability
+# 3、Dataset Availability
 To encourage the research in terms of vessel re-identification, we are pleased to provide the VesselReID-2258 dataset according to your request. If you want to use our dataset for research, you can contact us via sending an email to a1424538680@163.com. We will make the dataset available to you by providing the file needed for a download. When contacting us, please state your full name and affiliation. We ask for your information only to make sure the dataset is used for non-commercial purposes.
